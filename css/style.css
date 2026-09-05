@@ -3016,8 +3016,8 @@ p:last-child {
 
 .site-header.is-scrolled .brand-logo img,
 .homepage .site-header.is-scrolled .brand-logo img {
-  height: 72px;
-  max-width: 220px;
+  height: 82px;
+  max-width: 240px;
 }
 
 .site-header .brand-copy,
@@ -3043,6 +3043,26 @@ p:last-child {
   font-size: clamp(0.62rem, 1.2vw, 0.78rem);
   font-weight: 600;
   letter-spacing: 0.02em;
+}
+
+/* Keep the title visually balanced with the longer tagline. */
+.site-header .brand-copy .brand,
+.homepage .site-header .brand-copy .brand {
+  color: #a7865b;
+  font-size: clamp(1.5rem, 2.6vw, 1.9rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  white-space: nowrap;
+}
+
+.site-header .brand-copy .tag-line,
+.homepage .site-header .brand-copy .tag-line {
+  color: var(--navy-deep);
+  font-size: clamp(0.68rem, 1.25vw, 0.82rem);
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  white-space: nowrap;
 }
 
 .site-header .header-ctas,
@@ -3145,8 +3165,8 @@ p:last-child {
 
   .site-header.is-scrolled .brand-logo img,
   .homepage .site-header.is-scrolled .brand-logo img {
-    height: 54px;
-    max-width: 164px;
+    height: 62px;
+    max-width: 184px;
   }
 
   .site-nav-bar {
@@ -3229,8 +3249,8 @@ p:last-child {
 
   .site-header.is-scrolled .brand-logo img,
   .homepage .site-header.is-scrolled .brand-logo img {
-    height: 46px;
-    max-width: 132px;
+    height: 52px;
+    max-width: 148px;
   }
 
   .site-header .brand-copy strong,
@@ -3244,6 +3264,19 @@ p:last-child {
     font-size: 0.53rem;
   }
 
+  .site-header .brand-copy .brand,
+  .homepage .site-header .brand-copy .brand {
+    font-size: 1rem;
+  }
+
+  .site-header .brand-copy .tag-line,
+  .homepage .site-header .brand-copy .tag-line {
+    max-width: 150px;
+    font-size: 0.52rem;
+    line-height: 1.15;
+    white-space: normal;
+  }
+
   .site-header .header-ctas .btn,
   .homepage .header-ctas .btn {
     padding: 7px 7px;
@@ -3254,4 +3287,3 @@ p:last-child {
     height: 270px;
   }
 }
-
