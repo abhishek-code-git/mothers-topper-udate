@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Application | Mother's Topper Free Learning Assessment</title>
+  <meta name="description" content="Apply for Mother's Topper student learning guidance for Classes 1–12. Book a free diagnostic learning assessment for your child.">
+  <link rel="canonical" href="https://motherstopperindia.com/student-application.html">
+  <meta property="og:title" content="Student Application | Mother's Topper">
+  <meta property="og:description" content="Give your child a smarter way to learn. Start with a free diagnostic learning assessment.">
+  <meta property="og:image" content="img/logo.png">
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Global Header -->
+  <header class="site-header" data-header>
+    <div class="container nav-container">
+      <a class="brand-logo" href="index.html" aria-label="Mother's Topper Home">
+        <img src="img/logo.png" alt="Mother's Topper India" width="220" height="72">
+        <span class="brand-copy">
+          <strong>The Mothers Topper</strong>
+          <small>A Legacy of Ecellence. A Future of Success</small>
+        </span>
+      </a>
+      <div class="header-ctas">
+        <a class="btn btn-primary btn-sm" href="student-application.html">Enroll</a>
+        <a class="btn btn-gold btn-sm" href="franchise-application.html">Become a Franchise</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="site-nav-bar">
+    <div class="container site-nav-container">
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Primary Navigation" data-nav>
+        <a href="index.html">Home</a>
+        <a href="student.html">Students</a>
+        <a href="ai-learning.html">AI Learning</a>
+        <a href="programs.html">Programs</a>
+        <a href="centres.html">Centres</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="franchise.html">Franchise</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div class="reveal">
+          <span class="eyebrow">Free Learning Assessment</span>
+          <h1>Give Your Child a Smarter Way to Learn.</h1>
+          <p class="hero-lede">Start with a free diagnostic learning assessment. We'll identify your child's specific strengths, learning gaps, and build a tailored study plan.</p>
+          <div style="margin-top:20px;">
+            <p style="font-size:14px; color:var(--ink-muted);"><strong>Need Immediate Help?</strong> Call our counselor: <a href="tel:+918076895794" style="color:var(--royal-blue); font-weight:700;">+91-8076 895 794</a></p>
+          </div>
+        </div>
+        <div class="hero-image-wrap reveal reveal-delay-1">
+          <img src="img/9.jpg" alt="Student receiving personalised academic mentorship" width="600" height="380">
+        </div>
+      </div>
+    </section>
+
+    <!-- Sub-navigation links -->
+    <div class="subnav-strip">
+      <div class="container">
+        <div class="subnav-links">
+          <a href="student.html">Student Overview</a>
+          <span class="subnav-divider">|</span>
+          <a href="ai-learning.html">AI Learning Platform</a>
+          <span class="subnav-divider">|</span>
+          <a href="programs.html">Class 1–12 Programs</a>
+          <span class="subnav-divider">|</span>
+          <a href="centres.html">Learning Centres</a>
+          <span class="subnav-divider">|</span>
+          <a href="student-application.html" class="active">Student Application</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2-Step Application Wizard -->
+    <section class="section-pad">
+      <div class="container">
+        <div class="wizard-form-card reveal" data-wizard>
+          <!-- Step Progress Header -->
+          <div class="wizard-progress">
+            <div class="wizard-progress-line">
+              <div class="wizard-progress-bar" data-wizard-progress></div>
+            </div>
+
+            <div class="wizard-step-node active" data-wizard-node="1">
+              <div class="node-circle">01</div>
+              <span class="node-label">Student Details</span>
+            </div>
+
+            <div class="wizard-step-node" data-wizard-node="2">
+              <div class="node-circle">02</div>
+              <span class="node-label">Parent Contact</span>
+            </div>
+          </div>
+
+          <form action="submit.php" method="post">
+            <input type="hidden" name="lead_type" value="student">
+            <label class="hp-field">Leave empty <input name="website" tabindex="-1" autocomplete="off"></label>
+
+            <!-- STEP 1: Student Information -->
+            <div class="form-step active" data-wizard-step="1">
+              <h3 style="margin-bottom:6px;">Step 1 of 2: Student Academic Information</h3>
+              <p style="font-size:14px; color:var(--ink-muted); margin-bottom:24px;">Tell us about the student's grade, subjects, and study preferences.</p>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Student Full Name *</label>
+                  <input class="form-input" name="student_name" required placeholder="Full name of student">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Class / Grade *</label>
+                  <select class="form-select" name="class" required>
+                    <option value="">Select Class</option>
+                    <option value="Class 1">Class 1</option>
+                    <option value="Class 2">Class 2</option>
+                    <option value="Class 3">Class 3</option>
+                    <option value="Class 4">Class 4</option>
+                    <option value="Class 5">Class 5</option>
+                    <option value="Class 6">Class 6</option>
+                    <option value="Class 7">Class 7</option>
+                    <option value="Class 8">Class 8</option>
+                    <option value="Class 9">Class 9</option>
+                    <option value="Class 10">Class 10</option>
+                    <option value="Class 11">Class 11</option>
+                    <option value="Class 12">Class 12</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Subjects Needed</label>
+                  <input class="form-input" name="subjects" placeholder="e.g. Mathematics, Science, Physics...">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">City *</label>
+                  <input class="form-input" name="city" required autocomplete="address-level2" placeholder="Your current city">
+                </div>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Preferred Learning Format</label>
+                  <select class="form-select" name="learning_mode">
+                    <option value="Online">Online Learning from Home</option>
+                    <option value="Offline">Offline Learning Centre</option>
+                    <option value="Hybrid">Hybrid (Centre + Home AI)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Preferred Centre Locality (If Offline)</label>
+                  <input class="form-input" name="preferred_centre" placeholder="e.g. New Delhi, Noida, etc.">
+                </div>
+              </div>
+
+              <div class="wizard-nav" style="justify-content: flex-end;">
+                <button class="btn btn-primary btn-lg" data-wizard-next type="button">Continue to Parent Details &rarr;</button>
+              </div>
+            </div>
+
+            <!-- STEP 2: Parent Information -->
+            <div class="form-step" data-wizard-step="2">
+              <h3 style="margin-bottom:6px;">Step 2 of 2: Parent Contact Information</h3>
+              <p style="font-size:14px; color:var(--ink-muted); margin-bottom:24px;">Where can our academic counselor share the diagnostic assessment schedule?</p>
+
+              <div class="form-group">
+                <label class="form-label">Parent / Guardian Name *</label>
+                <input class="form-input" name="parent_name" required autocomplete="name" placeholder="Full name of parent or guardian">
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Mobile Number (10-digit Indian Number) *</label>
+                  <input class="form-input" name="phone" required inputmode="tel" autocomplete="tel" placeholder="e.g. 9876543210">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Email Address</label>
+                  <input class="form-input" name="email" type="email" autocomplete="email" placeholder="name@example.com">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Specific Academic Goals or Learning Notes (Optional)</label>
+                <textarea class="form-textarea" name="message" rows="3" placeholder="Mention any specific chapters, exam targets, or doubts your child faces..."></textarea>
+              </div>
+
+              <div class="wizard-nav">
+                <button class="btn btn-outline" data-wizard-prev type="button">&larr; Back</button>
+                <button class="btn btn-primary btn-lg" type="submit" name="submit">Get My Free Learning Assessment &rarr;</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="Mother's Topper Logo" width="190" height="60">
+        <p>AI-powered education. Human mentorship. Smarter learning for Classes 1–12.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Students</h4>
+        <div class="footer-links">
+          <a href="student.html">Overview</a>
+          <a href="programs.html">Classes 1–12 Programs</a>
+          <a href="ai-learning.html">AI Learning Experience</a>
+          <a href="centres.html">Find a Centre</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="student-application.html">Student Application</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Franchise</h4>
+        <div class="footer-links">
+          <a href="franchise.html">Franchise Overview</a>
+          <a href="franchise-model.html">Business & Support Model</a>
+          <a href="franchise-eligibility.html">Who Can Apply</a>
+          <a href="franchise-process.html">5-Step Process</a>
+          <a href="franchise-application.html">Franchise Application</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <div class="footer-contact-info">
+          <p>Phone: <a href="tel:+918076895794">+91-8076 895 794</a></p>
+          <p>Email: <a href="mailto:connectmotherstopper@gmail.com">connectmotherstopper@gmail.com</a></p>
+          <p>Location: New Delhi, India</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Mother's Topper Education Pvt. Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-floating-btn" href="https://wa.me/918076895794" target="_blank" rel="noopener" aria-label="Chat with Mother's Topper on WhatsApp">WhatsApp Us</a>
+  <div class="mobile-bottom-bar" aria-label="Mobile quick actions">
+    <div class="mobile-bottom-actions">
+      <a class="mob-call-btn" href="tel:+918076895794">Call</a>
+      <a class="mob-wa-btn" href="https://wa.me/918076895794" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="mob-apply-btn" href="student-application.html">Apply</a>
+    </div>
+  </div>
+</body>
+</html>
