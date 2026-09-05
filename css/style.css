@@ -410,6 +410,8 @@ p:last-child {
   animation: pulse-glow 2.5s infinite;
 }
 
+
+
 @keyframes pulse-glow {
   0%, 100% {
     box-shadow: 0 0 0 0 rgba(14, 86, 196, 0.4);
@@ -698,6 +700,13 @@ p:last-child {
   grid-template-columns: 1.1fr 0.9fr;
   gap: 48px;
   align-items: center;
+}
+
+.homepage .site-header .brand{
+  color:#A7865B;
+}
+.homepage .site-header .tag-line{
+  color:#051329;
 }
 
 /* Subnav Strip */
@@ -2961,14 +2970,15 @@ p:last-child {
 
   .homepage .header-ctas {
     gap: 5px;
+   
   }
-
+  
   .homepage .header-ctas .btn {
     padding: 8px 8px;
     font-size: 10px;
     white-space: nowrap;
   }
-
+ 
   .homepage .trust-item {
     width: auto;
     min-width: max-content;
@@ -3002,6 +3012,12 @@ p:last-child {
 .homepage .brand-logo img {
   height: 80px;
   max-width: 200px;
+}
+
+.site-header.is-scrolled .brand-logo img,
+.homepage .site-header.is-scrolled .brand-logo img {
+  height: 72px;
+  max-width: 220px;
 }
 
 .site-header .brand-copy,
@@ -3127,6 +3143,12 @@ p:last-child {
     max-width: 164px;
   }
 
+  .site-header.is-scrolled .brand-logo img,
+  .homepage .site-header.is-scrolled .brand-logo img {
+    height: 54px;
+    max-width: 164px;
+  }
+
   .site-nav-bar {
     top: 84px;
   }
@@ -3205,6 +3227,12 @@ p:last-child {
     max-width: 132px;
   }
 
+  .site-header.is-scrolled .brand-logo img,
+  .homepage .site-header.is-scrolled .brand-logo img {
+    height: 46px;
+    max-width: 132px;
+  }
+
   .site-header .brand-copy strong,
   .homepage .brand-copy strong {
     font-size: 0.86rem;
@@ -3226,5 +3254,4 @@ p:last-child {
     height: 270px;
   }
 }
-
 
