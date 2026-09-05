@@ -3000,7 +3000,7 @@ p:last-child {
 
 .site-header .brand-logo img,
 .homepage .brand-logo img {
-  height: 64px;
+  height: 80px;
   max-width: 200px;
 }
 
@@ -3008,7 +3008,7 @@ p:last-child {
 .homepage .brand-copy {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
   min-width: 0;
   color: var(--navy);
   line-height: 1.15;
