@@ -3012,13 +3012,14 @@ p:last-child {
 
 .site-header .brand-logo img,
 .homepage .brand-logo img {
-  height: 80px;
+  height: 110px;
+  padding: 1%;
   max-width: 200px;
 }
 
 .site-header.is-scrolled .brand-logo img,
 .homepage .site-header.is-scrolled .brand-logo img {
-  height: 82px;
+  height: 110px;
   max-width: 240px;
 }
 
@@ -3051,17 +3052,17 @@ p:last-child {
 .site-header .brand-copy .brand,
 .homepage .site-header .brand-copy .brand {
   color: #a7865b;
-  font-size: clamp(1.5rem, 2.6vw, 1.9rem);
+  font-size: clamp(2.5rem, 3vw, 1.9rem);
   font-weight: 800;
   line-height: 1.05;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.025em;
   white-space: nowrap;
 }
 
 .site-header .brand-copy .tag-line,
 .homepage .site-header .brand-copy .tag-line {
   color: var(--navy-deep);
-  font-size: clamp(0.68rem, 1.25vw, 0.82rem);
+  font-size: clamp(0.98rem, 1.25vw, 0.82rem);
   font-weight: 600;
   letter-spacing: 0.015em;
   white-space: nowrap;
@@ -3274,13 +3275,13 @@ p:last-child {
   .site-header .brand-copy .brand,
   .homepage .site-header .brand-copy .brand {
     font-size: 1.9rem;
-    line-height: 1.05;
+    line-height: 1.3;
   }
 
   .site-header .brand-copy .tag-line,
   .homepage .site-header .brand-copy .tag-line {
     max-width: 150px;
-    font-size: 0.52rem;
+    font-size: 0.59rem;
     line-height: 1.15;
     white-space: normal;
   }
