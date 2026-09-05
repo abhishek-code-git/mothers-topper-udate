@@ -3250,19 +3250,19 @@ p:last-child {
 
   .site-header .brand-logo img,
   .homepage .brand-logo img {
-    height: 62px;
+    height: 70px;
     max-width: 174px;
   }
 
   .site-header.is-scrolled .brand-logo img,
   .homepage .site-header.is-scrolled .brand-logo img {
-    height: 66px;
+    height: 80px;
     max-width: 186px;
   }
 
   .site-header .brand-copy strong,
   .homepage .brand-copy strong {
-    font-size: 0.86rem;
+    font-size: 2rem;
   }
 
   .site-header .brand-copy small,
@@ -3273,7 +3273,7 @@ p:last-child {
 
   .site-header .brand-copy .brand,
   .homepage .site-header .brand-copy .brand {
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     line-height: 1.05;
   }
 
