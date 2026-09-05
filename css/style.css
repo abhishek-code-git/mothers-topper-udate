@@ -3294,5 +3294,6 @@ p:last-child {
 
   .homepage .hero-image-wrap img {
     height: 270px;
+    padding: 1%;
   }
 }
