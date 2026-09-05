@@ -325,6 +325,8 @@ p:last-child {
   text-decoration: none;
 }
 
+
+
 .btn-primary {
   background-color: var(--royal-blue);
   color: var(--white);
@@ -3159,14 +3161,19 @@ p:last-child {
 
   .site-header .brand-logo img,
   .homepage .brand-logo img {
-    height: 54px;
-    max-width: 164px;
+    height: 66px;
+    max-width: 198px;
   }
 
   .site-header.is-scrolled .brand-logo img,
   .homepage .site-header.is-scrolled .brand-logo img {
-    height: 62px;
-    max-width: 184px;
+    height: 70px;
+    max-width: 208px;
+  }
+
+  .site-header .header-ctas,
+  .homepage .header-ctas {
+    display: none;
   }
 
   .site-nav-bar {
@@ -3243,14 +3250,14 @@ p:last-child {
 
   .site-header .brand-logo img,
   .homepage .brand-logo img {
-    height: 46px;
-    max-width: 132px;
+    height: 62px;
+    max-width: 174px;
   }
 
   .site-header.is-scrolled .brand-logo img,
   .homepage .site-header.is-scrolled .brand-logo img {
-    height: 52px;
-    max-width: 148px;
+    height: 66px;
+    max-width: 186px;
   }
 
   .site-header .brand-copy strong,
@@ -3266,7 +3273,8 @@ p:last-child {
 
   .site-header .brand-copy .brand,
   .homepage .site-header .brand-copy .brand {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.05;
   }
 
   .site-header .brand-copy .tag-line,
